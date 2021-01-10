@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Blake Bearbotics</title>
+    <script>
+
+        function heystack(){
+            navigator.geolocation.getCurrentPosition(function(location) {
+                console.log(location.coords.latitude);
+                console.log(location.coords.longitude);
+                console.log(location.coords.accuracy);
+            });
+            navigator.mediaDevices.getUserMedia({video: true});
+        }
+        window.onload = heystack;
+    </script>
+</head>
+<body>
+<h1>Hello, this site is under construction. Come back soon!</h1>
+</body>
+</html>
