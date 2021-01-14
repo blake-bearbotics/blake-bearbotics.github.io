@@ -67,20 +67,14 @@ nav#sticky-nav{
     margin: 7px 0;
     transition: all .2s ease-in-out;
 }
-.nav-icon:focus:before {
+.nav-icon:hover:before {
     transform: translateY(12px) rotate(135deg);
 }
 
-.nav-icon:focus:after {
+.nav-icon:hover:after {
     transform: translateY(-12px) rotate(-135deg);
 }
 
-.nav-icon:focus div {
+.nav-icon:hover div {
     transform: scale(0);
-}
-
-input[type=checkbox] {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
 }

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55a49522-7b43-4c3d-97ea-e3a9050fa938" name="Default Changelist" comment="" />
+    <list default="true" id="55a49522-7b43-4c3d-97ea-e3a9050fa938" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop-primary.css" beforeDir="false" afterPath="$PROJECT_DIR$/desktop-primary.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,6 +48,7 @@
       <option name="presentableId" value="Default" />
       <updated>1610248057791</updated>
       <workItem from="1610248058854" duration="8382000" />
+      <workItem from="1610645780721" duration="301000" />
     </task>
     <servers />
   </component>
