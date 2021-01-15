@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    filter: blur(3px);
+
 }
 body{
     height: 100%;
@@ -22,34 +22,45 @@ body{
     text-align: center;
     color: azure;
 }
-
+.home-page-section {
+    width: 100%;
+    height: 75vh;
+}
 .home-page-section-header{
     font-size: 5vh;
     font-family: sans-serif;
-    margin: 30vh 0 30vh 0;
+    width: 70vw;
+    margin: 30vh 15vw 30vh 15vw;
     transition: all, .25s;
     color: azure;
     text-shadow: 0 0 5px #112;
     text-align: center;
-
-
+    filter: blur(0);
+    position: absolute;
 }
 a{
     color: inherit;
 }
 
 .home-page-section-header:hover {
-    font-size: 4.9vh;
+    transform: scale(.95);
     text-shadow: 0 0 8px #EEF;
 }
-#home-page-section-1 {
+#home-page-section-1-img {
     background-image: url("./asset/code-stock-photo.jpg");
-    background-size: 100vw;
-
-    height: 75vh;
-    width: 100vw;
-
+    filter: blur(6px);
+    background-size: cover;
     position: absolute;
+    width: 100%;
+    height: inherit;
+}
+#home-page-section-2-img {
+    background-image: url("./asset/boss.jpg");
+    filter: blur(6px);
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: inherit;
 }
 
 
